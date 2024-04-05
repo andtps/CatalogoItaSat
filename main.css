@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(30, 39, 46);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 10px;
+}
+header .container img {
+  width: 320px;
+}
+header .container ul {
+  display: flex;
+  position: relative;
+  top: 40%;
+}
+header .container ul li {
+  padding: 5px;
+  list-style: none;
+  border: solid white 2px;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 10px;
+}
+header .container ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+#ContentSection {
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  padding: 50px;
+  border-radius: 10px;
+  border: solid white 4px;
+}
+#ContentSection .container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 3.3%;
+}
+#ContentSection #SectionTittle {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#ContentSection .IntContent h3 {
+  text-align: center;
+  margin: 3px 0 3px 0;
+}
+#ContentSection .IntContent p {
+  width: 100%;
+  text-align: center;
+  margin: 3px 0 6px 0;
+}
+#ContentSection .IntContent button {
+  width: 100%;
+  cursor: pointer;
+  height: 30px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  border: solid rgb(68, 189, 50) 3px;
+  color: white;
+  background-color: rgb(68, 189, 50);
+}
+#ContentSection .IntContent button:hover {
+  background-color: transparent;
+  color: rgb(68, 189, 50);
+}
+
+@media (max-width: 979px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+  }
+  header .container img {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+  header .container ul {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #ContentSection {
+    max-width: 80%;
+  }
+  #ContentSection .container {
+    display: block;
+  }
+  #ContentSection .container .ProductDiv {
+    width: 60%;
+    margin: 90px auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
