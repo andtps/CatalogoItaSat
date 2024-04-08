@@ -134,6 +134,12 @@ header .container ul li a {
     justify-content: center;
     margin: 20px auto;
   }
+  #ContentSection .container p {
+    color: white;
+  }
+  #ContentSection .container h3 {
+    color: white;
+  }
   #ContentSection .container .ProductDiv {
     margin-bottom: 70px;
   }
