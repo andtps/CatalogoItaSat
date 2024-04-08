@@ -116,6 +116,10 @@ header .container ul li a {
     margin: 30px auto;
     padding: 0;
   }
+  #ContentSection #SectionTittle {
+    margin-top: 15px;
+    font-size: 25px;
+  }
   #ContentSection .container {
     display: block;
   }

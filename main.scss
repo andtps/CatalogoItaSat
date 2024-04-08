@@ -95,6 +95,7 @@ header {
     .container {
       max-width: 80%;
       display: block;
+
       img {
         width: 70%;
         display: block;
@@ -122,6 +123,10 @@ header {
     margin: 30px auto;
     padding: 0;
 
+    #SectionTittle {
+      margin-top: 15px;
+      font-size: 25px;
+    }
     .container {
       display: block;
 
