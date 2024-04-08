@@ -134,6 +134,9 @@ header .container ul li a {
     justify-content: center;
     margin: 20px auto;
   }
+  #ContentSection .container .ProductDiv {
+    margin-bottom: 70px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
