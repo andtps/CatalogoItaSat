@@ -39,7 +39,6 @@ header .container ul li {
   border: solid white 2px;
   border-radius: 10px;
   display: flex;
-  margin-left: 10px;
 }
 header .container ul li a {
   text-decoration: none;
@@ -92,31 +91,34 @@ header .container ul li a {
   color: rgb(68, 189, 50);
 }
 
-@media (max-width: 979px) {
+@media (min-width: 320px) and (max-width: 979px) {
   header .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
+    max-width: 80%;
+    display: block;
   }
   header .container img {
-    display: flex;
-    width: 60%;
+    width: 70%;
+    display: block;
     margin: 0 auto;
   }
-  header .container ul {
-    display: flex;
-    max-width: 80%;
+  header .container li {
+    width: 70%;
+    display: block;
     margin: 0 auto;
+    padding: 2px;
   }
   #ContentSection {
-    max-width: 80%;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 0;
   }
   #ContentSection .container {
     display: block;
   }
-  #ContentSection .container .ProductDiv {
-    width: 60%;
-    margin: 90px auto;
+  #ContentSection .container img {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
 
