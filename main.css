@@ -101,9 +101,13 @@ header .container ul li a {
     display: block;
     margin: 0 auto;
   }
-  header .container li {
+  header .container .NavBar ul #Motorola {
+    margin: 0 5px 0 5px;
+  }
+  header .container .NavBar ul li {
     width: 70%;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 2px;
   }
@@ -119,6 +123,12 @@ header .container ul li a {
     display: flex;
     max-width: 90%;
     margin: 0 auto;
+  }
+  #ContentSection .container button {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
   }
 }
 

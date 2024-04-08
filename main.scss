@@ -100,11 +100,20 @@ header {
         display: block;
         margin: 0 auto;
       }
-      li {
-        width: 70%;
-        display: block;
-        margin: 0 auto;
-        padding: 2px;
+
+      .NavBar {
+        ul {
+          #Motorola {
+            margin: 0 5px 0 5px;
+          }
+          li {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 2px;
+          }
+        }
       }
     }
   }
@@ -120,6 +129,12 @@ header {
         display: flex;
         max-width: 90%;
         margin: 0 auto;
+      }
+      button {
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
       }
     }
   }
